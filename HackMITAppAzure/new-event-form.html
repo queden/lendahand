@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>New Event</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+  <script src="scripts/clientside.js"></script>
+</head>
+
+
+<body class="centered-content">
+  <h1 style="padding-top: 150px;">Post new event</h1>
+  <form id="ad-posting-form">
+    <input type="text" id="event-name" placeholder="Event name" style="margin-bottom: 10px;">
+    <input type="text" id="event-date" placeholder="Date (mm/dd/yy)" style="margin-bottom: 10px;"><br/>
+    <textarea id="event-description" name="description" cols="50" rows="10" placeholder="Tell us about your event!" style="margin-bottom: 8px;"></textarea><br/>
+    <input id="event-address" type="text" placeholder="Address (Ex. 77 Massachusetts Ave, Cambridge, MA 02139)" style="width:40%; margin-bottom: 10px;"><br/>
+    <h3 style="display: inline">Volunteers needed: </h3>
+    <input id="event-volunteers" type="text" placeholder="Ex. 100" style="width: 90px;"><br/>
+    <button id="ad-entry-btn" type="button" style="transform: translateY(21px);" onclick="window.location.href = 'org-event-list.html'">SUBMIT</button>
+  </form>
+</body>
+
+
+</html>
