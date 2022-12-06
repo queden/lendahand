@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@azure/cosmos": "^3.2.0",
-    "express": "3.x"
+    "express": "4.x"
   }
 }
